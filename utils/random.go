@@ -2,7 +2,7 @@ package utils
 
 import "math/rand"
 
-var runes = []rune("0123456789abcdefghijklmnopqrstuvwzyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+var runes = []rune("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
 func RandomURL(size int) string {
 	str := make([]rune, size)
